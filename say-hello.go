@@ -1,5 +1,5 @@
 package gosayhello
 
-func SayHello() string {
-	return "Hello Ridho, this is version v1.5.0"
+func SayHello(name string) string {
+	return "This" + "is" + name + "new version"
 }
